@@ -34,7 +34,7 @@ All built with **zero code** — just Excel, Power Query, Power Pivot, DAX, and 
  
 ## 🔍 Key Financial Findings
  
-### 💼 Company-Level P&L Summary
+### 💼 Company-Level P&L Summary-[P&L By Fiscal Year.pdf](https://github.com/Raghavkumar-ds/Excel-Financial-Analysis-Report/blob/main/P%26L%20By%20Fiscal%20Year.pdf)
  
 | Metric | FY 2019 | FY 2020 | FY 2021 | Growth (20→21) |
 |--------|---------|---------|---------|----------------|
@@ -47,7 +47,7 @@ All built with **zero code** — just Excel, Power Query, Power Pivot, DAX, and 
  
 ---
  
-### 🌍 Market-Level GM% — Who's Most Profitable? (FY 2021)
+### 🌍 Market-Level GM% — Who's Most Profitable?-(FY 2021)[P&L For Markets.pdf](https://github.com/Raghavkumar-ds/Excel-Financial-Analysis-Report/blob/main/P%26L%20For%20Markets.pdf)
  
 | 🏆 Top Performers | GM% | 🔴 Needs Attention | GM% |
 |------------------|-----|-------------------|-----|
@@ -61,7 +61,7 @@ All built with **zero code** — just Excel, Power Query, Power Pivot, DAX, and 
  
 ---
  
-### 📆 Quarterly GM% by Sub-Zone (FY 2021)
+### 📆 Quarterly GM% by Sub-Zone (FY 2021)-[GM Analysis by Quarter.pdf](https://github.com/Raghavkumar-ds/Excel-Financial-Analysis-Report/blob/main/GM%20Analysis%20by%20Quarter.pdf)
  
 | Sub-Zone | Q1 | Q2 | Q3 | Q4 | Full Year |
 |----------|----|----|----|----|-----------|
@@ -76,7 +76,7 @@ All built with **zero code** — just Excel, Power Query, Power Pivot, DAX, and 
  
 ---
  
-### 📅 Monthly P&L Trends
+### 📅 Monthly P&L Trends-[P&L By Month and Quarter.pdf](https://github.com/Raghavkumar-ds/Excel-Financial-Analysis-Report/blob/main/P%26L%20By%20Month%20and%20Quarter.pdf)
  
 **FY 2021 Monthly Snapshot:**
  
@@ -112,7 +112,7 @@ All built with **zero code** — just Excel, Power Query, Power Pivot, DAX, and 
  
 ### 1. 🔄 Power Query — Data Transformation
 Raw P&L data from multiple sources was cleaned and structured before loading:
-- Normalized fiscal year and month columns
+- Normalised fiscal year and month columns
 - Unpivoted wide-format data into analysis-ready tables
 - Cleaned COGS, Net Sales, and Margin fields across all markets
 ### 2. 🗃️ Data Model — Connecting the Dots
@@ -122,7 +122,7 @@ All tables were brought into Excel's **Data Model** with relationships:
 - Star schema design for clean, fast querying
 ### 3. ⚙️ Power Pivot — Financial Reporting Engine
 **Power Pivot** made building dynamic P&L reports possible:
-- Created measure tables for clean organization
+- Created measure tables for clean organisation
 - Built multi-level hierarchies (Region → Sub-Zone → Country)
 - Enabled YoY comparisons across fiscal years
 ### 4. 📐 DAX Formulas — Financial Calculations
@@ -155,7 +155,7 @@ Financial reports use formatting that communicates at a glance:
 - 🟢 **Green** for markets beating the global GM% average (36.43%)
 - 🔴 **Red** for markets falling below average or declining YoY
 - 📊 **Heat maps** on the quarterly GM% table to spot trends instantly
-- **Color-coded variance** columns — negative swings highlighted in red
+- **Colour-coded variance** columns — negative swings highlighted in red
 ---
  
  
